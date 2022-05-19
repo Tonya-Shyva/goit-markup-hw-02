@@ -5,62 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Эффективные решения для вашего бизнеса</title>
+    <title>Студия</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Верхняя линия -->
-    <header class="header">
+    <header class="page-header">
     <nav>
         <!--Logo-->
         <a href="./index.html" class="logo" lang="en">
-            <span class="logo-part1">Web</span>
-            <span class="logo-part2">Studio</span>
+            <span class="logo-part-first">Web</span>
+            <span class="logo-end">Studio</span>
         </a>
 
         <!--Navigation-->
-        <ul class="navigation-list">
-            <li class="studio-item"><a href="">Студия</a></li>
-            <li class="portfolio-item"><a href="">Портфолио</a></li>
-            <li class="contacts-item"><a href="">Контакты</a></li>
+        <ul class="nav-list list">
+            <li class="studio-item"><a class="studio current" href="index.html">Студия</a></li>
+            <li class="portfolio-item"><a class="portfolio" href="./portfolio.html">Портфолио</a></li>
+            <li class="contacts-item"><a class="contacts" href="">Контакты</a></li>
         </ul>
     </nav>
 
-        <ul class="connection-list">
-            <li class="email-item"><a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="telnumber-item"><a href="tel:+380961111111">+380961111111</a></li>
+    <div class="connection">
+        <ul class="connection-list list">
+            <li class="email-item"><a class="email" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="telnumber-item"><a class="telnumber" href="tel:+380961111111">+380961111111</a></li>
         </ul>
+    </div>
+
+        
     </header>
 
     <main>
         <!-- Шапка -->
-        <section class="tittle">
-            <h1 class="main-tittle">Эффективные решения для вашего бизнеса</h1>
+        <section class="title">
+            <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
             <button class="order-service">Заказать услугу</button>
         </section>
         
         <!-- Особенности -->
         <section class="features">
             <!--Заголовок <h2 class="features-tittle">Особенности</h2> сделать невидимым в css-->
-            <h2 class="features-tittle">Особенности</h2>
-            <ul class="features-list">
+            <h2 class="features-title">Особенности</h2>
+            <ul class="features-list list">
                 <li class="feature-items">
-                    <h3 class="tittle-feature-item">Внимание к деталям</h3>
+                    <h3 class="title-feature-item">Внимание к деталям</h3>
                         <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                 </li>
                 <li>
-                    <h3 class="tittle-feature-item">Пунктуальность</h3>
+                    <h3 class="title-feature-item">Пунктуальность</h3>
                         <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за
                             собой.</p>
                 </li>
                 <li>
-                    <h3 class="tittle-feature-item">Планирование</h3>
+                    <h3 class="title-feature-item">Планирование</h3>
                         <p class="description">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                 </li>
                 <li>
-                    <h3 class="tittle-feature-item">Современные технологии</h3>
+                    <h3 class="title-feature-item">Современные технологии</h3>
                         <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
@@ -69,7 +81,7 @@
         <!-- Чем мы занимаемся -->
         <section class="our-work">
             <h2 class="work-examples">Чем мы занимаемся</h2>
-            <ul class="examples-list">
+            <ul class="examples-list list">
                 <li class="example-item">
                     <a href="" class="example-item1">
                         <img src="./images/box1.jpg" alt="Разработка" width="370">
@@ -90,8 +102,8 @@
         
         <!-- Наша команда -->
         <section class="our-team">
-            <h2 class="team-tittle">Наша команда</h2>
-            <ul class="team-list">
+            <h2 class="team-title">Наша команда</h2>
+            <ul class="team-list list">
                 <li class="member-item">
                     <img class="member" src="./images/Игорь.jpg" alt="Фото Игоря Демьяненко" width="270">
                     <h3 class="member-name">Игорь Демьяненко</h3>
