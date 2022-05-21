@@ -30,6 +30,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
+  width: 145px;
+  height: 31px;
 }
 
 .logo.head {
@@ -139,8 +141,8 @@ body {
 
 /* Особенности */
 .features {
-  /* width: 1170px;
-  height: 101px; */
+  width: 1170px;
+  height: 101px;
   padding: 94px 215px;
 }
 
@@ -148,18 +150,31 @@ body {
   display: none;
 }
 
+.features-list,
+.team-list {
+  column-count: 4;
+}
+
+.features-item {
+  vertical-align: top;
+  width: 270px;
+}
+
+.title-feature-item,
+.description {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
 .title-feature-item {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .description {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -176,6 +191,16 @@ body {
   /* width: 1170px;
   height: 386px; */
   padding: 94px 215px;
+}
+
+.examples-list {
+  column-count: 3;
+}
+
+.work,
+.project-image {
+  width: 370px;
+  height: 294px;
 }
 
 /* Наша команда */
@@ -213,9 +238,8 @@ body {
   margin: 2097px 0px 0px 0px;
 }
 
-.logo.foot {
-  width: 145px;
-  height: 31px;
+.foot .logo-end {
+  color: #ffffff;
 }
 
 .find-us {
@@ -224,6 +248,11 @@ body {
 }
 .map-address {
   color: #ffffff;
+  text-align: left;
+}
+
+.connection {
+  text-align: left;
 }
 
 .email-address,
@@ -258,6 +287,10 @@ body {
   display: none;
 }
 
+.filters {
+  column-count: 5;
+}
+
 .filters .button {
   cursor: pointer;
   color: var(--primary-text-color);
@@ -274,9 +307,8 @@ body {
   color: #ffffff;
 }
 
-.project-image {
-  width: 370px;
-  height: 294px;
+.projects-list {
+  column-count: 3;
 }
 
 .project-item {
