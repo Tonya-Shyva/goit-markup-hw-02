@@ -1,139 +1,170 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Верхняя линия -->
     <header class="page-header">
-        <nav>
-            <!--Logo-->
-            <a href="./index.html" class="logo" lang="en">
-                <span class="logo-part1">Web</span>
-                <span class="logo-part2">Studio</span>
-            </a>
-    
-            <!--Navigation-->
-            <ul class="nav-list list">
-                <li class="studio-item"><a class="studio" href="index.html">Студия</a></li>
-                <li class="portfolio-item"><a class="portfolio current" href="./portfolio.html">Портфолио</a></li>
-                <li class="contacts-item"><a class="contacts" href="">Контакты</a></li>
-            </ul>
-            </nav>
-            <ul class="connection-list list">
-                <li class="email-item"><a class="email" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="telnumber-item"><a class="telnumber" href="tel:+380961111111">+380961111111</a></li>
-            </ul>
+      <nav>
+        <!--Logo-->
+        <a href="./index.html" class="logo head" lang="en">
+          <span class="logo-part-first">Web</span>
+          <span class="logo-end">Studio</span>
+        </a>
+
+        <!--Navigation-->
+        <ul class="nav-list list">
+          <li class="studio-item"><a class="studio" href="index.html">Студия</a></li>
+          <li class="portfolio-item">
+            <a class="portfolio current" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="contacts-item"><a class="contacts" href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="connection-list list">
+        <li class="email-item">
+          <a class="email" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="telnumber-item">
+          <a class="telnumber" href="tel:+380961111111">+380961111111</a>
+        </li>
+      </ul>
     </header>
 
     <main>
-        <section class="projects">
-            <div class="filters">
-                <button class="filter-all button" type="button">Все</button>
-                <button class="filter-websites button" type="button">Веб-сайты</button>
-                <button class="filter-apps button" type="button">Приложения</button>
-                <button class="filter-design button" type="button">Дизайн</button>
-                <button class="filter-marketing button" type="button">Маркетинг</button>
-            </div>
-        
-            <ul class="projects-list list">
-                <li class="project-item1">
-                    <a href="" class="project-item1">
-                        <img src="./images/project1.jpg" alt="Открытый ноутбук" width="370">
-                    </a>
-                    <h3 class="project-title">Технокряк</h3>
-                    <p class="project-filter">Веб-сайт</p>
-                </li>
-                <li class="project-item2">
-                    <a href="" class="project-item2">
-                        <img src="./images/project2.jpg" alt="Постер" width="370">
-                    </a>
-                    <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
-                    <p class="project-filter">Дизайн</p>
-                </li>
-                <li class="project-item3">
-                    <a href="" class="project-item3">
-                        <img src="./images/project3.jpg" alt="Логотип ресторана Сифуд" width="370">
-                    </a>
-                    <h3 class="project-title">Ресторан Seafood</h3>
-                    <p class="project-filter">Приложение</p>
-                </li>
-                <li class="project-item4">
-                    <a href="" class="project-item4">
-                        <img src="./images/project4.jpg" alt="Наушники" width="370">
-                    </a>
-                    <h3 class="project-title">Проект Prime</h3>
-                    <p class="project-filter">Маркетинг</p>
-                </li>
-                <li class="project-item5">
-                    <a href="" class="project-item5">
-                        <img src="./images/project5.jpg" alt="Коробки" width="370">
-                    </a>
-                    <h3 class="project-title">Проект Boxes</h3>
-                    <p class="project-filter">Приложение</p>
-                </li>
-                <li class="project-item6">
-                    <a href="" class="project-item6">
-                        <img src="./images/project6.jpg" alt="Монитор" width="370">
-                    </a>
-                    <h3 class="project-title" lang="en">Inspiration has no Borders</h3>
-                    <p class="project-filter">Веб-сайт</p>
-                </li>
-                <li class="project-item7">
-                    <a href="" class="project-item7">
-                        <img src="./images/project7.jpg" alt="Открытый журнал" width="370">
-                    </a>
-                    <h3 class="project-title">Издание Limited Edition</h3>
-                    <p class="project-filter">Дизайн</p>
-                </li>
-                <li class="project-item8">
-                    <a href="" class="project-item8">
-                        <img src="./images/project8.jpg" alt="Бирка" width="370">
-                    </a>
-                    <h3 class="project-title">Проект LAB</h3>
-                    <p class="project-filter">Маркетинг</p>
-                </li>
-                <li class="project-item9">
-                    <a href="" class="project-item9">
-                        <img src="./images/project9.jpg" alt="Открытый ноутбук со стартовой страницей приложения" width="370">
-                    </a>
-                    <h3 class="project-title">Growing Business</h3>
-                    <p class="project-filter">Приложение</p>
-                </li>  
-            </ul>
-        </section>
+      <section class="projects">
+        <!--Cпрятать h1 в css-->
+        <h1 class="works">Наши работы</h1>
+        <div class="filters">
+          <button class="filter-all button" type="button">Все</button>
+          <button class="filter-websites button" type="button">Веб-сайты</button>
+          <button class="filter-apps button" type="button">Приложения</button>
+          <button class="filter-design button" type="button">Дизайн</button>
+          <button class="filter-marketing button" type="button">Маркетинг</button>
+        </div>
+
+        <ul class="projects-list list">
+          <li class="project-first">
+            <a href="" class="project-item">
+              <img
+                class="project-image"
+                src="./images/project1.jpg"
+                alt="Открытый ноутбук"
+                width="370"
+              />
+              <h2 class="project-title">Технокряк</h2>
+              <p class="project-filter">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="project-second">
+            <a href="" class="project-item">
+              <img class="project-image" src="./images/project2.jpg" alt="Постер" width="370" />
+              <h2 class="project-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+              <p class="project-filter">Дизайн</p>
+            </a>
+          </li>
+          <li class="project-third">
+            <a href="" class="project-item">
+              <img
+                class="project-image"
+                src="./images/project3.jpg"
+                alt="Логотип ресторана Сифуд"
+                width="370"
+              />
+              <h2 class="project-title">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="project-filter">Приложение</p>
+            </a>
+          </li>
+          <li class="project-fourth">
+            <a href="" class="project-item">
+              <img class="project-image" src="./images/project4.jpg" alt="Наушники" width="370" />
+              <h2 class="project-title">Проект <span lang="en">Prime</span></h2>
+              <p class="project-filter">Маркетинг</p>
+            </a>
+          </li>
+          <li class="project-fifth">
+            <a href="" class="project-item">
+              <img class="project-image" src="./images/project5.jpg" alt="Коробки" width="370" />
+              <h2 class="project-title">Проект <span lang="en">Boxes</span></h2>
+              <p class="project-filter">Приложение</p>
+            </a>
+          </li>
+          <li class="project-sixth">
+            <a href="" class="project-item">
+              <img class="project-image" src="./images/project6.jpg" alt="Монитор" width="370" />
+              <h2 class="project-title" lang="en">Inspiration has no Borders</h2>
+              <p class="project-filter">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="project-seventh">
+            <a href="" class="project-item">
+              <img
+                class="project-image"
+                src="./images/project7.jpg"
+                alt="Открытый журнал"
+                width="370"
+              />
+              <h2 class="project-title">Издание <span lang="en">Limited Edition</span></h2>
+              <p class="project-filter">Дизайн</p>
+            </a>
+          </li>
+          <li class="project-eigth">
+            <a href="" class="project-item">
+              <img class="project-image" src="./images/project8.jpg" alt="Бирка" width="370" />
+              <h2 class="project-title">Проект <span lang="en">LAB</span></h2>
+              <p class="project-filter">Маркетинг</p>
+            </a>
+          </li>
+          <li class="project-ninth">
+            <a href="" class="project-item">
+              <img
+                class="project-image"
+                src="./images/project9.jpg"
+                alt="Открытый ноутбук со стартовой страницей приложения"
+                width="370"
+              />
+              <h2 class="project-title" lang="en">Growing Business</h2>
+              <p class="project-filter">Приложение</p>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <!-- Подвал -->
-    <footer class="footer">
-        <!--Logo-->
-        <a href="./index.html" class="logo" lang="en">
-            <span class="logo-part1">Web</span>
-            <span class="logo-part2">Studio</span>
-        </a>
-        <!-- Contact address -->
-        <address class="map-address">
-            г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <address class="connection">
+    <footer class="down">
+      <!--Logo-->
+      <a href="./index.html" class="logo foot" lang="en">
+        <span class="logo-part-first">Web</span>
+        <span class="logo-end">Studio</span>
+      </a>
+      <!-- Contact address -->
+      <address class="find-us">
+        <p class="map-address">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul class="connection list">
+          <li class="connection-item">
             <a class="email-address" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="connection-item">
             <a class="tel-number" href="tel:+380991111111">+380991111111</a>
-        </address>
-    
+          </li>
+        </ul>
+      </address>
     </footer>
-    
-</body>
+  </body>
 </html>
