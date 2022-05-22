@@ -9,16 +9,11 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
-  width: 1600px;
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
 }
 .list {
   list-style: none;
-}
-.page-header {
-  left: 0px;
-  top: 0px;
 }
 
 /* < !--Logo--> */
@@ -29,12 +24,6 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
-  width: 145px;
-  height: 31px;
-}
-
-.logo.head {
-  padding: 24px, 93px, 25px, 215px;
 }
 
 .logo-end {
@@ -48,8 +37,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding-bottom: 32px;
-  padding-top: 32px;
 }
 .nav-list .studio.current,
 .nav-list .portfolio.current,
@@ -70,8 +57,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
-  padding-bottom: 32px;
-  padding-top: 32px;
 }
 
 .studio:hover,
@@ -89,20 +74,17 @@ body {
 .telnumber:focus {
   color: var(--accent-color);
 }
+
 /* Страница студии */
+
 /* Шапка  */
 
 .hero {
-  height: 600px;
-  padding-top: 80px;
   background-color: #2f303a;
 }
 
 .title-hero {
   color: #ffffff;
-  width: 696px;
-  height: 120px;
-  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -110,24 +92,22 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/* button */
+/* Кнопка заказа */
 .order-service {
   cursor: pointer;
   color: #ffffff;
   background-color: var(--accent-color);
-  width: 200px;
-  height: 50px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
 .order-service:hover {
-  background-color: blue;
+  background-color: var(--accent-color);
 }
 
 .features-works {
@@ -135,11 +115,6 @@ body {
 }
 
 /* Особенности */
-.features {
-  width: 1170px;
-  height: 101px;
-  padding: 94px 215px;
-}
 
 .features-title {
   display: none;
@@ -148,11 +123,6 @@ body {
 .features-list,
 .team-list {
   column-count: 4;
-}
-
-.features-item {
-  /* vertical-align: top; */
-  width: 270px;
 }
 
 .title-feature-item,
@@ -182,28 +152,13 @@ body {
   letter-spacing: 0.03em;
 }
 
-.our-work {
-  /* width: 1170px;
-  height: 386px; */
-  padding: 94px 215px;
-}
-
 .examples-list {
   column-count: 3;
-}
-
-.work,
-.project-image {
-  width: 370px;
-  height: 294px;
 }
 
 /* Наша команда */
 .our-team {
   background-color: #f5f4fa;
-  width: 1600px;
-  height: 648px;
-  padding: 94px 0px 0px 0px;
   letter-spacing: 0.03em;
 }
 
@@ -211,7 +166,7 @@ body {
 .position {
   font-size: 16px;
   line-height: 1.19;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .member-name {
@@ -238,8 +193,7 @@ body {
 }
 
 .find-us {
-  width: 231px;
-  height: 81px;
+  font-style: inherit;
 }
 .map-address {
   color: #ffffff;
@@ -253,8 +207,7 @@ body {
 .email-address,
 .tel-number {
   text-decoration: none;
-  /* color: rgba(255, 255, 255, 0.6); */
-  color: #ffffff60;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .email-address:hover,
@@ -269,15 +222,6 @@ body {
 
 /* Страница Портфолио */
 
-/* .filters {}*/
-
-.projects {
-  width: 1170px;
-  height: 1360px;
-  padding-top: 94px;
-  padding-bottom: 0;
-}
-
 .works {
   display: none;
 }
@@ -287,10 +231,16 @@ body {
 }
 
 .filters .button {
+  font-family: inherit;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
   background-color: #f5f4fa;
-  font-family: inherit;
 }
 
 .filters .button:hover {
