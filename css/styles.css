@@ -36,7 +36,6 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .nav-list .studio.current,
 .nav-list .portfolio.current,
@@ -48,6 +47,7 @@ body {
 .portfolio,
 .contacts {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .email,
